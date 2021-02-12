@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            .control-grid{
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Interface</h1>
+        <div class='control-grid'>
+            <form action='/control' method='POST'>
+                <input type = 'submit' name = 'direction' value = 'left-forwards'>
+            </form>
+
+            <form action='/control' method='POST'>
+                <input type = 'submit' name = 'direction' value = 'full-forwards'>
+            </form>
+
+            <form action='/control' method='POST'>
+                <input type = 'submit' name = 'direction' value = 'right-forwards'>
+            </form>
+
+            <form action='/control' method='POST'>
+                <input type = 'submit' name = 'direction' value = 'left-backwards'>
+            </form>
+
+            <form action='/control' method='POST'>
+                <input type = 'submit' name = 'direction' value = 'full-backwards'>
+            </form>
+
+            <form action='/control' method='POST'>
+                <input type = 'submit' name = 'direction' value = 'right-backwards'>
+            </form>
+        </div>
+    </body>
+</html>
+
